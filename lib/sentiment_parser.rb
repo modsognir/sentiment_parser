@@ -2,6 +2,18 @@ require "csv"
 require "sentiment_parser/version"
 
 class SentimentParser
+  attr_accessor :words
+
+  class << self
+    def parse(words)
+      new(words).parse
+    end
+  end
+
+  def initialize(words)
+    @words = words
+  end
+
   def load(data)
     hash = {}
     CSV.parse(data, :col_sep => "\t") do |row|
@@ -10,7 +22,7 @@ class SentimentParser
     hash
   end
 
-  def parse(words)
+  def parse
     total = 0.0
 
     words.split(' ').each do |word|

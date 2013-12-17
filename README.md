@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-    SentimentParser.new.parse("This is a sad")
+    SentimentParser.parse("This is a sad")
     => -0.583333333333
 
 ## Contributing
