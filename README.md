@@ -1,5 +1,7 @@
 # SentimentParser
 
+[![Build Status](https://travis-ci.org/modsognir/sentiment_parser.png)](https://travis-ci.org/modsognir/sentiment_parser)
+
 Totals up the sentiment value for a given set of words.
 
 ## Installation
