@@ -1,6 +1,6 @@
 # SentimentParser
 
-[![Build Status](https://travis-ci.org/modsognir/sentiment_parser.png)](https://travis-ci.org/modsognir/sentiment_parser)
+[![Gem Version](https://badge.fury.io/rb/sentiment_parser.png)](http://badge.fury.io/rb/sentiment_parser) [![Build Status](https://travis-ci.org/modsognir/sentiment_parser.png)](https://travis-ci.org/modsognir/sentiment_parser)
 
 Totals up the sentiment value for a given set of words.
 
