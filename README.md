@@ -36,3 +36,7 @@ Or install it yourself as:
 Sentiment data from Sentiwordnet (http://sentiwordnet.isti.cnr.it/).
 
 Thanks to Christopher J. MacLellan for his blog post on tweet sentiment analysis (http://www.christopia.net/2011/06/05/sentiment-analysis-of-tweets-using-ruby) and assistance
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/modsognir/sentiment_parser/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
